@@ -15,3 +15,4 @@ gsutil cp data/*recordingMeta.csv gs://cchighdtraffic/
 For dataprocessing and the coding part, we created a cluster in dataproc and connected it to the "cchighdtraffic" storage bucket.
 Then we used the Jupyter Notebook in the dataproc as an Component gateway, to process the data.
 The code of the processing is in the HighD.IPYNB.
+![image](https://user-images.githubusercontent.com/72389295/230816200-6c2e276c-8119-4d51-ba8a-c689a6a312fd.png)
