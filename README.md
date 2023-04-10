@@ -11,3 +11,7 @@ gsutil cp gs://cchighdtraffic/highd-dataset-v1.0.zip .
 unzip highd-dataset-v1.0.zip 'data/*recordingMeta.csv'
 ### To send the data we needed to the bucket:
 gsutil cp data/*recordingMeta.csv gs://cchighdtraffic/
+### Dataproc and Jupyter Notebook:
+For dataprocessing and the coding part, we created a cluster in dataproc and connected it to the "cchighdtraffic" storage bucket.
+Then we used the Jupyter Notebook in the dataproc as an Component gateway, to process the data.
+The code of the processing is in the HighD.IPYNB.
